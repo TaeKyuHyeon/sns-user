@@ -18,4 +18,4 @@ spring:
         region:
           factory_class: org.hibernate.cache.ehcache.SingletonEhCacheRegionFactory
     hibernate:
-      ddl-auto: create
+      ddl-auto: create  # Caution! This will drop all database and re-create. Use 'validate' on production.
